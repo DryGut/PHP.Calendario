@@ -1,0 +1,15 @@
+p {
+  font-family: cursive;
+  color: red;
+}
+
+h3 {
+  border: 5px solid deepskyblue;
+  font-family: cursive;
+  font-size: 100%;
+  color: darkgreen;
+}
+
+fieldset {
+  border: 5px solid green;
+}
