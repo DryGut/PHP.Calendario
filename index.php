@@ -9,7 +9,7 @@ require 'bancodedados.php';
       <meta charset="utf-8">
       <title>Calendario Maroto</title>
   </head>
-    <center><h2 style="font-family:sans-serif, center">
+    <center><h2>
    <?php
       $mes = new Datetime();
       echo $mes->format("F Y");
@@ -23,7 +23,7 @@ require 'bancodedados.php';
         }
      ?> />
       <fieldset>
-         <center><p style="font-size:15">
+         <center><p>
       Criador: <input type="text" name="criador" <?php if(isset($criador) && $criador != null || $criador != "") {
      echo "value=\"{$criador}\"";
       }
@@ -37,7 +37,7 @@ require 'bancodedados.php';
       </fieldset>
       </form>
     </body>
-    <center><table border="1">
+    <center><table>
     <tr>
       <th style="color: red">Dom</th>
       <th>Seg</th>

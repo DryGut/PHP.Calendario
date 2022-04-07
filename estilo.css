@@ -1,15 +1,48 @@
 p {
   font-family: cursive;
-  color: red;
+  color: blanchedalmond;
+  font-size: 70%
 }
 
 h3 {
-  border: 5px solid deepskyblue;
+  border: 2px solid red;
   font-family: cursive;
   font-size: 100%;
-  color: darkgreen;
+  color: seagreen;
 }
 
 fieldset {
-  border: 5px solid green;
+  border: 3px solid red;
+}
+
+table {
+  color: black;
+  background-color: white;
+}
+body {
+  background-image: url(https://grepitout.com/wp-content/uploads/2017/08/parrot-fly-grey.jpg);
+  opacity: 0.7;
+}
+
+h2 {
+  color: papayawhip;
+  font-family: cursive;
+  float: center;
+}
+
+th {
+  border: 1px solid;
+}
+
+table {
+  border: 3px solid;
+}
+
+td {
+  border: 1px solid;
+}
+
+a {
+  font-family: cursive;
+  float: center;
 }
