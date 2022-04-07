@@ -52,7 +52,7 @@ if(isset($_REQUEST['op']) && $_REQUEST['op'] == "inserir" && $criador != "") {
 }
 
 //bloco para edição e recupeção dos cadastros
-if (isset($REQUEST['op']) && $REQUEST['op'] == "upd" && $id != "") {
+if (isset($_REQUEST['op']) && $_REQUEST['op'] == "upd" && $id != "") {
   try {
     $sql = $conexao->prepare("SELECT * FROM eventos WHERE id = ?");
     $sql->bindParam(1, $id, PDO::PARAM_INT);
@@ -70,7 +70,7 @@ if (isset($REQUEST['op']) && $REQUEST['op'] == "upd" && $id != "") {
 }
 
 //bloco que irá fazer a remoção de dados
-if (isset($REQUEST['op']) && $REQUEST['op'] == "del" && $id != "") {
+if (isset($_REQUEST['op']) && $_REQUEST['op'] == "del" && $id != "") {
   try {
     $sql = $conexao->prepare("DELETE FROM eventos WHERE id = ?");
     $sql->bindParam(1, $id, PDO::PARAM_INT);
